@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "hapi-fhir-ui"
+  "defaultProject": "hapi-fhir-ui",
+  "cli": {
+    "analytics": "b3e61e78-a4d5-4acd-b614-ebe9316242c8"
+  }
 }

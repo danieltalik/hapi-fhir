@@ -1,10 +1,6 @@
 package g2o.hdi.hub.provider;
 
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import org.hl7.fhir.instance.model.api.IBaseResource;
@@ -22,7 +18,7 @@ import ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException;
 
 public class PatientProvider implements IResourceProvider {
 
-   private Map<String, Patient> myPatients = new HashMap<String, Patient>();
+   private Map<Long, Patient> myPatients = new LinkedHashMap<>();
    private long myNextId = 1;
 
    /**
@@ -46,7 +42,7 @@ public class PatientProvider implements IResourceProvider {
     */
    @Read()
    public Patient read(@IdParam IdType theId) {
-      Patient retVal = myPatients.get(theId.getIdPart());
+      Patient retVal = myPatients.get(Long.parseLong(theId.getIdPart()));
       if (retVal == null) {
          throw new ResourceNotFoundException(theId);
       }
@@ -65,7 +61,14 @@ public class PatientProvider implements IResourceProvider {
       IdType newId = new IdType("Patient", Long.toString(id));
       thePatient.setId(newId);
       
-      myPatients.put(id+"", thePatient);
+      myPatients.put(id, thePatient);
+
+      myPatients = myPatients.entrySet()
+              .stream()
+              .sorted(Map.Entry.comparingByKey())
+              .collect(Collectors.toMap(
+                      Map.Entry::getKey,
+                      Map.Entry::getValue,(oldValue,newValue)->oldValue, LinkedHashMap::new));
 
       return new MethodOutcome(new IdType(id));
    }

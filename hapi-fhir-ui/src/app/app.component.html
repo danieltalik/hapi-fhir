@@ -336,4 +336,28 @@
     </tr>
   </table>
 
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">City</th>
+        <th scope="col">State</th>
+        <th scope="col">Zip</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+    <tr *ngFor="let org of orginzations">
+      <td scope="row">{{org.resource.id}}</td>
+      <td >{{org.resource.name}}</td>
+      <td>{{org.resource.address[0].line[0]}}</td>
+      <td>{{org.resource.address[0].city}}</td>
+      <td>{{org.resource.address[0].state}}</td>
+      <td>{{org.resource.address[0].postalCode}}</td>
+    </tr>
+  </table>
+
 </div>
