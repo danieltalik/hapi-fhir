@@ -17,3 +17,4 @@ This repo contains 3 projects demonstrating simple usage of HAPI FHIR for data i
 1. 'mvn jetty:run' at hdi-hub/
 2. 'mvn spring-boot:run' at pms/
 3. 'npm start' at hapi-fhir-ui/
+4.  http://localhost:4200
