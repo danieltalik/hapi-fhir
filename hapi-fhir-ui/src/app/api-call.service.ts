@@ -13,6 +13,7 @@ export class ApiCallService {
   searchPatients(): Observable<any> {
     return this.http.get("http://localhost:8080/Patient/");
   }
+  //Test
   searchOrgs(): Observable<any> {
     return this.http.get("http://localhost:8080/Organization/");
   }
