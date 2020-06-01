@@ -8,14 +8,11 @@ import org.hl7.fhir.instance.model.api.IBaseResource;
 import org.hl7.fhir.r4.model.Address;
 import org.hl7.fhir.r4.model.IdType;
 import org.hl7.fhir.r4.model.Organization;
-import org.hl7.fhir.r4.model.Patient;
-
-import java.security.cert.CollectionCertStoreParameters;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class HospitalProvider implements IResourceProvider {
-    private Address address;
+
     private long myNextId = 1;
 
     private Map<Long, Organization> myHospitals = new HashMap<Long, Organization>();
