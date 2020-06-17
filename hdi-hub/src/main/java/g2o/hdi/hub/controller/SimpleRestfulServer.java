@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.rest.server.RestfulServer;
 import ca.uhn.fhir.rest.server.interceptor.ResponseHighlighterInterceptor;
+import g2o.hdi.hub.interceptor.MyAuthorizationInterceptor;
 import g2o.hdi.hub.interceptor.MyCorsInterceptor;
 import g2o.hdi.hub.provider.HospitalProvider;
 import g2o.hdi.hub.provider.PatientProvider;
@@ -24,10 +25,9 @@ public class SimpleRestfulServer extends RestfulServer {
 		
 		// Format the responses in nice HTML
 		registerInterceptor(new ResponseHighlighterInterceptor());
+		registerInterceptor(new MyAuthorizationInterceptor());
 		
 		// enable CORS
 		registerInterceptor(new MyCorsInterceptor());
-		
-		
 	}
 }

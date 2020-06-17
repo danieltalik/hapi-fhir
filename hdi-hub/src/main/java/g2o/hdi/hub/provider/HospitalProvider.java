@@ -55,7 +55,7 @@ public class HospitalProvider implements IResourceProvider {
 
         // Here we are just generating IDs sequentially
         long id = myNextId++;
-        IdType newId = new IdType("Patient", Long.toString(id));
+        IdType newId = new IdType("Organization", Long.toString(id));
         org.setId(newId);
 
         myHospitals.put(id, org);

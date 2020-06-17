@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca76af4-ed8e-4ab4-b6f9-63f22be53777" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hapi-fhir-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hapi-fhir-ui/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/api-call.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/api-call.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/AuthorizationServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/config/EmbeddedKeycloakApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/config/EmbeddedKeycloakConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/config/KeycloakServerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/config/RegularJsonConfigProviderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/config/Resteasy3Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeycloakAuthServer/src/main/java/com/baeldung/auth/config/SimplePlatformProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/AuthServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdi-hub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hdi-hub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pms/src/main/java/g2o/hdi/pms/ScheduledTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pms/src/main/java/g2o/hdi/pms/ScheduledTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyCorsInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyCorsInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/controller/SimpleRestfulServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/controller/SimpleRestfulServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/interceptor/MyCorsInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/interceptor/MyCorsInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/provider/HospitalProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/provider/HospitalProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pms/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +42,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyCorsInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="463">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,66 +54,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2098" column="49" selection-start-line="2098" selection-start-column="49" selection-end-line="2098" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Reference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5184">
-              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            <state relative-caret-position="197">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+            <state relative-caret-position="520">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#739#759#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Organization.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/interceptor/auth/AuthorizationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+            <state relative-caret-position="265">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/DomainResource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Resource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            <state relative-caret-position="117">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +105,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>managing</find>
+      <find>getHeader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,16 +115,53 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/Columbus_Hospital.java" />
-        <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/configuration/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyCorsInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/PatientAndAdminAuthorizationInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/g2o.hdi.hub/Tests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bearer.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HAPI FHIR Server Example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HAPI FHIR Server Example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HAPI FHIR Server Example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HAPI FHIR Server Example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1552" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -221,6 +238,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hdi-hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdi-hub" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,7 +251,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590783653931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592409661035" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dtalik\devl\Workspace\HDI\client-server\hdi\hdi-hub\src\test\java\g2o.hdi.hub" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,6 +270,101 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Maven.Jetty">
+    <configuration name="All in hdi-hub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdi-hub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jetty" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="hdi-hub" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Remote">
+      <module name="hdi-hub" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in hdi-hub" />
+      <item itemvalue="Maven.Jetty" />
+      <item itemvalue="Remote.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in hdi-hub" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -256,10 +379,16 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_hdi-hub - 2020.06.12 at 17h 23m 24s.xml">
+      <configuration name="All in hdi-hub" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Project Explorer" order="3" />
@@ -269,15 +398,16 @@
       <window_info id="Job Explorer" order="7" />
       <window_info id="Learn" order="8" />
       <window_info id="Favorites" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30552545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -285,26 +415,52 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="userIsAdmin" />
+        <watch expression="jwt" />
+        <watch expression="jwt" language="JAVA" />
+        <watch expression="jwt" language="JAVA" />
+        <watch expression="rules" />
+        <watch expression="rules" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyCorsInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7411">
@@ -312,62 +468,248 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36090">
+          <caret line="2098" column="49" selection-start-line="2098" selection-start-column="49" selection-end-line="2098" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/configuration/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/PatientAndAdminAuthorizationInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1741">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Organization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        <state relative-caret-position="969">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/DomainResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="952">
           <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="952">
           <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-base/4.1.0/hapi-fhir-base-4.1.0-sources.jar!/ca/uhn/fhir/interceptor/api/IInterceptorBroadcaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Reference.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-base/4.1.0/hapi-fhir-base-4.1.0-sources.jar!/ca/uhn/fhir/rest/api/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5184">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="205">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/Patient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServletRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2098" column="49" selection-start-line="2098" selection-start-column="49" selection-end-line="2098" selection-end-column="49" />
+        <state relative-caret-position="323">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/api/server/RequestDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="220" column="12" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2972#2973#0" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/servlet/ServletRequestDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding>
+            <element signature="e#3170#3171#0" expanded="true" />
+            <element signature="e#3219#3220#0" expanded="true" />
+            <element signature="e#4383#4384#0" expanded="true" />
+            <element signature="e#4413#4414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/g2o.hdi.hub/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.3.0/java-jwt-3.3.0.jar!/com/auth0/jwt/JWTVerifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4896">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bearer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/method/BaseMethodBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/method/BaseOutcomeReturningMethodBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-base/4.1.0/hapi-fhir-base-4.1.0-sources.jar!/ca/uhn/fhir/interceptor/executor/InterceptorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="505" selection-start-line="505" selection-end-line="505" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/RestfulServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="1059" selection-start-line="1059" selection-end-line="1059" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyCorsInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/interceptor/auth/IAuthRuleBuilderRuleOpClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/interceptor/auth/RuleBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2498">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+          <folding>
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="463">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/IdType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/HospitalProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="117">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#739#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/hapi-fhir-server/4.1.0/hapi-fhir-server-4.1.0-sources.jar!/ca/uhn/fhir/rest/server/interceptor/auth/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
