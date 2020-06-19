@@ -12,6 +12,13 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 @EnableAuthorizationServer
 public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
 
+    @Value("${user.oauth.clientId}")
+    private String ClientID;
+    @Value("${user.oauth.clientSecret}")
+    private String ClientSecret;
+    @Value("${user.oauth.redirectUris}")
+    private String RedirectURLs;
+
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
@@ -25,12 +32,11 @@ public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
-                .withClient("SampleClientId")
-                .secret(passwordEncoder.encode("secret"))
+                .withClient(ClientID)
+                .secret(passwordEncoder.encode(ClientSecret))
                 .authorizedGrantTypes("authorization_code")
                 .scopes("user_info")
                 .autoApprove(true)
-                .redirectUris(
-                        "http://localhost:8082/ui/login","http://localhost:8083/login");
+                .redirectUris(RedirectURLs);
     }
 }

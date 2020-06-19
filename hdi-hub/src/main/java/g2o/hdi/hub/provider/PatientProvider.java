@@ -3,7 +3,9 @@ package g2o.hdi.hub.provider;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import jdk.internal.joptsimple.util.KeyValuePair;
 import org.hl7.fhir.instance.model.api.IBaseResource;
+import org.hl7.fhir.r4.model.ContactPoint;
 import org.hl7.fhir.r4.model.IdType;
 import org.hl7.fhir.r4.model.Patient;
 
@@ -49,6 +51,20 @@ public class PatientProvider implements IResourceProvider {
       return retVal;
    }
 
+   public Long getByEmail(String email){
+       String patientEmail;
+       Long retVal = 0L;
+       for (Map.Entry<Long,Patient> patient : myPatients.entrySet()) {
+          //patientEmail = patient.getValue().getTelecom().contains();
+           for( ContactPoint contact :patient.getValue().getTelecom()){
+               if(contact.getSystem().equals(ContactPoint.ContactPointSystem.EMAIL) && contact.getValue().equals(email)){
+                   retVal = patient.getKey();
+               }
+           }
+       }
+       return retVal;
+   }
+
    /**
     * The "@Create" annotation indicates that this method implements "create=type", which adds a
     * new instance of a resource to the server.
@@ -58,9 +74,17 @@ public class PatientProvider implements IResourceProvider {
 
       // Here we are just generating IDs sequentially
       long id = myNextId++;
+
+      //THIS IS TEMPORARY TO SET AN EMAIL TO RETURN LATER
+      if(id == 1L){
+          ContactPoint email = new ContactPoint();
+          email.setSystem(ContactPoint.ContactPointSystem.EMAIL);
+          email.setValue("dtalik@yahoo.com");
+          thePatient.addTelecom(email);
+      }
       IdType newId = new IdType("Patient", Long.toString(id));
       thePatient.setId(newId);
-      
+
       myPatients.put(id, thePatient);
 
       myPatients = myPatients.entrySet()
@@ -72,12 +96,11 @@ public class PatientProvider implements IResourceProvider {
 
       return new MethodOutcome(new IdType(id));
    }
-   
+
    @Search
    public List<Patient> findPatientsUsingArbitraryCtriteria() {
       return myPatients.values().stream().collect(Collectors.toList());
    }
 
-   
 
 }

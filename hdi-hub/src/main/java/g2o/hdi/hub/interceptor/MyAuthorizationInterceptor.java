@@ -5,14 +5,11 @@ import ca.uhn.fhir.rest.server.exceptions.AuthenticationException;
 import ca.uhn.fhir.rest.server.interceptor.auth.IAuthRule;
 import ca.uhn.fhir.rest.server.interceptor.auth.RuleBuilder;
 import com.auth0.jwt.JWT;
-import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.exceptions.JWTDecodeException;
-import com.auth0.jwt.impl.JWTParser;
 import com.auth0.jwt.interfaces.Claim;
 import com.auth0.jwt.interfaces.DecodedJWT;
+import g2o.hdi.hub.provider.PatientProvider;
 import org.hl7.fhir.r4.model.IdType;
-import org.hl7.fhir.r4.model.Patient;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 
 import java.util.List;
@@ -21,7 +18,17 @@ import java.util.List;
 public class MyAuthorizationInterceptor extends ca.uhn.fhir.rest.server.interceptor.auth.AuthorizationInterceptor {
 
     //Query the email to a corresponding accessible patient record and tie that to the user
-    private String user = "dtalik@yahoo.com";
+
+    private String john = "john@test.com";
+    private PatientProvider provider;
+
+    public MyAuthorizationInterceptor(){
+
+    }
+
+    public MyAuthorizationInterceptor(PatientProvider provider){
+        this.provider = provider;
+    }
 
     @Override
     public List<IAuthRule> buildRuleList(RequestDetails theRequestDetails) {
@@ -35,47 +42,50 @@ public class MyAuthorizationInterceptor extends ca.uhn.fhir.rest.server.intercep
         // another that has full access.
         IdType userIdPatientId = null;
         boolean userIsAdmin = false;
-        String e ="";
+        String e = "";
 
         String authHeader = theRequestDetails.getHeader("Authorization");
 
-        if(authHeader == null){
+        String token = authHeader.replace("Bearer ", "");
+        try {
+            DecodedJWT jwt = JWT.decode(token);
+            Claim claim = jwt.getClaim("preferred_username");
+            e = claim.asString();
+            //sub= jwt.toString();
+        } catch (JWTDecodeException exception) {
+            throw new AuthenticationException("Missing or invalid Authorization header value");
+        }
+
+        if (!e.equals(john)) {
+            // TODO: Make this more dynamic and query the existing patient records to the email. Right now this user has access only to Patient/1 resources
+            Long id = provider.getByEmail(e);
+            //userIdPatientId = new IdType("Patient", 1L);
+            userIdPatientId = new IdType("Patient", id);
+
+        } else if (e.equals(john)) {
+            // This user has access to everything
             userIsAdmin = true;
+        } else {
+            // Throw an HTTP 401
+            throw new AuthenticationException("Missing or invalid Authorization header value");
         }
-        else if(authHeader != null) {
 
-            String token = authHeader.replace("Bearer ", "");
-            try {
-                DecodedJWT jwt = JWT.decode(token);
-                Claim claim = jwt.getClaim("preferred_username");
-                e = claim.asString();
-                //sub= jwt.toString();
-            } catch (JWTDecodeException exception) {
-                exception.getMessage();
-            }
-
-            if (e.equals(user)) {
-                // TODO: Make this more dynamic and query the existing patient records to the email. Right now this user has access only to Patient/1 resources
-
-                userIdPatientId = new IdType("Patient", 1L);
-            } else if ("Bearer 39ff939jgg".equals(authHeader)) {
-                // This user has access to everything
-                userIsAdmin = true;
-            } else {
-                // Throw an HTTP 401
-                throw new AuthenticationException("Missing or invalid Authorization header value");
-            }
-        }
 
         // If the user is a specific patient, we create the following rule chain:
         // Allow the user to read anything in their own patient compartment
         // Allow the user to write anything in their own patient compartment
         // If a client request doesn't pass either of the above, deny it
-        if (userIdPatientId != null) {
+        if (userIdPatientId != null && !userIdPatientId.equals("Patient/0")) {
             return new RuleBuilder()
                     .allow().read().allResources().inCompartment("Patient", userIdPatientId).andThen()
                     //.allow().read().allResources().inCompartment("Organization", userIdPatientId).andThen()
                     .allow().write().allResources().inCompartment("Patient", userIdPatientId).andThen()
+                    .denyAll()
+                    .build();
+        }
+
+        if(userIdPatientId != null && userIdPatientId.equals("Patient/0")){
+            return new RuleBuilder()
                     .denyAll()
                     .build();
         }
@@ -93,5 +103,6 @@ public class MyAuthorizationInterceptor extends ca.uhn.fhir.rest.server.intercep
                 .denyAll()
                 .build();
     }
+
 }
 

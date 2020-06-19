@@ -18,14 +18,15 @@ public class SimpleRestfulServer extends RestfulServer {
 	protected void initialize() throws ServletException {
 		// Create a context for the appropriate version
 		setFhirContext(FhirContext.forR4());
+		PatientProvider provider = new PatientProvider();
 		
 		// Register resource providers
-		registerProvider(new PatientProvider());
+		registerProvider(provider);
 		registerProvider(new HospitalProvider());
 		
 		// Format the responses in nice HTML
 		registerInterceptor(new ResponseHighlighterInterceptor());
-		registerInterceptor(new MyAuthorizationInterceptor());
+		registerInterceptor(new MyAuthorizationInterceptor(provider));
 		
 		// enable CORS
 		registerInterceptor(new MyCorsInterceptor());
