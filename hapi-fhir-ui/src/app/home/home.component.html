@@ -1,0 +1,17 @@
+<main>
+  <div class="container" style="margin-top: 100px;">
+    <div class="row row-offcanvas row-offcanvas-right">
+      <div class="col-xs-12 col-sm-9">
+          <button *ngIf="!isLoggedIn" class="btn btn-primary" (click)="login()" type="submit">
+              Login
+            </button>
+          
+            <div *ngIf="isLoggedIn" class="content">
+              <span>Welcome !!</span>
+              <a class="btn btn-default pull-right" (click)="logout()" href="#">Logout</a>
+            </div>
+          
+      </div>
+    </div>
+  </div>
+</main>

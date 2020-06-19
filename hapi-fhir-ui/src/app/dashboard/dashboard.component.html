@@ -1,0 +1,23 @@
+<div class="container" role="main" style="margin: 100px;">
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Family</th>
+          <th scope="col">BirthDate</th>
+          <th scope="col">Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+  
+      </tbody>
+      <tr *ngFor="let patient of patients">
+        <td scope="row">{{patient.resource.id}}</td>
+        <td >{{patient.resource.name[0].family}}</td>
+        <td>{{patient.resource.birthDate}}</td>
+        <td>{{patient.resource.gender}}</td>
+      </tr>
+    </table>
+ 
+  </div>
