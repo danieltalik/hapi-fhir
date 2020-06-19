@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca76af4-ed8e-4ab4-b6f9-63f22be53777" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/AuthServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/java/com/g2o/hapi/AuthorizationServerApplication/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorizationServerApplication/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KeycloakAuthServer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KeycloakAuthServer/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hapi-fhir-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/controller/SimpleRestfulServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/g2o/hdi/hub/provider/PatientProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bearer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bearer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g2o/hdi/hub/interceptor/MyAuthorizationInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hapi-fhir-ui/node_modules/__ngcc_entry_points__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hapi-fhir-ui/node_modules/__ngcc_entry_points__.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +88,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/IdType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1944">
-              <caret line="219" column="16" lean-forward="true" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
+              <caret line="219" column="16" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
               <folding>
                 <element signature="e#6673#6674#0" expanded="true" />
                 <element signature="e#6690#6691#0" expanded="true" />
@@ -193,9 +182,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1553" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1554" />
     <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -435,7 +424,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3045326" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3045326" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -696,7 +685,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/fhir/org.hl7.fhir.r4/4.1.0/org.hl7.fhir.r4-4.1.0-sources.jar!/org/hl7/fhir/r4/model/IdType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1944">
-          <caret line="219" column="16" lean-forward="true" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
+          <caret line="219" column="16" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
           <folding>
             <element signature="e#6673#6674#0" expanded="true" />
             <element signature="e#6690#6691#0" expanded="true" />
